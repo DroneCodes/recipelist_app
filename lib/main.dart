@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:recipelist_app/views/home.dart';
+import 'package:recipelist_app/welcome/welcome.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
           bodyText2: TextStyle(color: Colors.white),
         ),
       ),
-      home: HomePage(),
+      home: Welcome(),
     );
   }
 }
