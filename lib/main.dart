@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:recipelist_app/views/home.dart';
 import 'package:recipelist_app/welcome/welcome.dart';
 
 void main() {

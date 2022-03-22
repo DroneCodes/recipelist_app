@@ -53,5 +53,7 @@ class _HomePageState extends State<HomePage> {
                       cookTime: _recipe[index].totalTime,
                       thumbnailUrl: _recipe[index].images);
                 }));
+
+        
   }
 }
